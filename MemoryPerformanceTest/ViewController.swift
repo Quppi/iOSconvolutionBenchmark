@@ -24,8 +24,11 @@ class ViewController: UIViewController {
 
     @IBAction func goButtonCppPressed(_ sender: Any) {
         let bm = benchmark()
-        let duration = bm.bench()
-        resultCpp.text = "C++: \(duration) ms"
+
+ //       bm.testBench()
+       bm.backgroundBench()
+//        let duration = bm.bench()
+//        resultCpp.text = "C++: \(duration) ms"
     }
 
 }

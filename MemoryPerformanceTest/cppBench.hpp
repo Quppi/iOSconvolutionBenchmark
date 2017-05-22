@@ -13,7 +13,11 @@
 #import <Foundation/Foundation.h>
 
 @interface benchmark : NSObject
--(float)bench;
+- (void) backgroundBench;
+
+- (void) testBench;
+
+-(float) bench: (int) cycleCount;
 @end
 
 
