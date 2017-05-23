@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func goButtonCppPressed(_ sender: Any) {
+    @IBAction func goButtonCppPressed(sender: AnyObject) {
         let bm = benchmark()
 
  //       bm.testBench()

@@ -27,7 +27,7 @@ using namespace std;
 
 - (void) testBench
 {
-    static int cycleCount = 10;
+    static int cycleCount = 1;
     int testCount= 100;
     
     std::cout << "cycleCount: " << cycleCount << " testCount: " << testCount << endl;

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Duk-0x-5za">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="JBF-Ns-mmy">
+            <objects>
+                <viewController id="Duk-0x-5za" customClass="ViewController" customModule="MemoryPerformanceTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GF7-dX-pPy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKx-JQ-IQu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GAK-Mz-6Oy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5w-ek-wmJ">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="goButtonCppPressed:" destination="Duk-0x-5za" eventType="touchUpInside" id="dF1-sq-4gQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b5w-ek-wmJ" firstAttribute="centerY" secondItem="GAK-Mz-6Oy" secondAttribute="centerY" id="DY0-e3-izY"/>
+                            <constraint firstItem="b5w-ek-wmJ" firstAttribute="centerX" secondItem="GAK-Mz-6Oy" secondAttribute="centerX" id="rRN-pT-Sob"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKi-Y4-qKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="258"/>
+        </scene>
+    </scenes>
+</document>
